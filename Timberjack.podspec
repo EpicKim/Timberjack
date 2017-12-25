@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.source_files = 'Source/*.swift'
   s.requires_arc = true
+  s.static_framework = true
 end
